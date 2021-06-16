@@ -1,0 +1,46 @@
+###
+GET http://localhost:8080/products HTTP/1.1
+
+###
+GET http://localhost:8080/categories HTTP/1.1
+
+###
+
+POST http://localhost:8080/products HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Telefon",
+    "description": "Xiaomi Mi10 T PRO",
+    "price": 3000,
+    "category":"60c9f5d349bd4c702069b5ea"
+    
+}
+###
+POST http://localhost:8080/categories HTTP/1.1
+content-type: application/json
+
+{
+    "name": "RTV"
+}
+
+
+###
+PUT http://localhost:8080/products HTTP/1.1
+content-type: application/json
+
+{
+    "id": "60c9f5d349bd4c702069b5ea",
+    "name": "Telewizor zmieniony",
+    "description": "Telewizor plazmowy",
+    "price": 15000
+}
+
+###
+DELETE http://localhost:8080/products HTTP/1.1
+content-type: application/json
+
+{
+    "id": "60c9f5d349bd4c702069b5ea"
+}
+
