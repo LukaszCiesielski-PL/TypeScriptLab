@@ -1,0 +1,11 @@
+@import '_mixins.scss';
+@import '_veriables.scss';
+
+@import '_tictactoe.scss';
+
+.gameContainer{
+    background: $bg-main;
+    flex-grow:1;
+    min-height: 100vh;
+    @include flex-center();
+}
