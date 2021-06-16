@@ -15,4 +15,8 @@ export class cell{
             this._htmlElement.innerHTML = this._value;
         }
     }
+    refresh()
+    {
+        this._htmlElement.innerHTML = this._value;
+    }
 }

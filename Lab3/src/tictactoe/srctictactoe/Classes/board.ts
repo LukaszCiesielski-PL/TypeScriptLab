@@ -114,4 +114,5 @@ export class board{
         this._allMoves--;
         
     }
+    
 }
