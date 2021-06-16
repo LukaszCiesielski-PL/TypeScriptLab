@@ -1,0 +1,62 @@
+###
+GET http://localhost:8080/products HTTP/1.1
+
+###
+
+POST http://localhost:8080/products HTTP/1.1
+content-type: application/json
+
+{   
+    "id": 1,
+    "name": "Telewizor",
+    "description": "Telewizor plazmowy",
+    "price": 5000
+}
+
+###
+PUT http://localhost:8080/products
+content-type: application/json
+
+{
+    "id": 2,
+    "name": "Telewizor",
+    "description": "Telewizor zmieniony",
+    "price": 6666
+}
+
+###
+DELETE http://localhost:8080/products/2 HTTP/1.1
+
+
+###
+GET http://localhost:8080/laptop HTTP/1.1
+
+###
+
+POST http://localhost:8080/laptop HTTP/1.1
+content-type: application/json
+
+{   
+    "id": 1,
+    "type": "Laptop",
+    "company": "Lenovo",
+    "model": "IdeaPad 5",
+    "price": 2999
+}
+
+
+###
+PUT http://localhost:8080/laptop
+content-type: application/json
+
+{
+    "id":1,
+    "type": "Laptop",
+    "company": "Lenovo",
+    "model": "IdeaPad 5",
+    "price": 2499
+}
+
+
+###
+DELETE http://localhost:8080/laptop/1 HTTP/1.1
