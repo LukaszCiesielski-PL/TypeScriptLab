@@ -1,3 +1,3 @@
 # TypeScriptLab
  
-Proste ćwiczenia z wykorzystaniem TypScript prowadzone na uczelnianych laboratoriach
+Proste ćwiczenia z wykorzystaniem TypeScript prowadzone na uczelnianych laboratoriach
